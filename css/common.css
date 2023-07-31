@@ -1,0 +1,280 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+header {
+    width: 100%;
+    height: 119px;
+}
+
+#head {
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+#iconl {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 22px 0 0 3px;
+}
+
+#iconl>a>img {
+    width: 100%;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 auto;
+    width: 118.781px;
+    height: 30px;
+    padding: 22px;
+}
+
+#logo>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+#iconr {
+    width: 130px;
+    height: 24px;
+    float: right;
+    margin: -52px 0 0 0px;
+}
+
+#iconr>a>img {
+    width: 34px;
+    height: 29px;
+    margin: 0 0px 0 5px;
+    text-align: center;
+}
+
+#navi {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#navbox {
+    width: 1200px;
+    height: 39px;
+    margin: 0 auto;
+}
+
+#navbox>a>img {
+    margin: 8px 0 0 3px;
+    float: left;
+}
+
+#brands {
+    width: 105px;
+    height: 30px;
+    border-right: 1px solid #000;
+    float: left;
+    margin: 5px 0px 0px 20px;
+    line-height: 18px;
+}
+
+#brands>a {
+    text-decoration: none;
+}
+
+#brands>a>p {
+    font-size: 13px;
+    color: #000;
+    margin: 0px 0px 5px 34px;
+    padding: 5px 0px;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 19px;
+    font-weight: 440;
+}
+
+#new {
+    width: 205px;
+    height: 30px;
+    border-right: 1px solid #000;
+    float: left;
+    margin: 5px 0px 0px 2px;
+}
+
+#new>ul>a>li {
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+    margin: 0px 3px 5px 17px;
+    padding: 5px 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 19px;
+    font-weight: 440;
+}
+
+nav {
+    width: 500px;
+    height: 30px;
+    float: left;
+    margin: 5px 0px 0px 3px;
+    line-height: 18px;
+}
+
+nav>ul>a>li {
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+    margin: 0px 3px 5px 17px;
+    padding: 5px 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 19px;
+    font-weight: 440;
+}
+
+#information {
+    width: 218px;
+    height: 30px;
+    border-left: 1px solid #000;
+    float: right;
+    margin: 5px 0px 0px 5px;
+    line-height: 18px;
+}
+
+#information>ul>a>li {
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+    margin: 0px 0px 5px 20px;
+    padding: 5px 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 19px;
+    font-weight: 440;
+}
+
+footer {
+    width: 100%;
+    height: 277px;
+    border-top: 1px solid black;
+}
+
+#footbox {
+    width: 1200px;
+    height: 203px;
+    padding: 37px 0 37px 0px;
+    margin: 0 auto;
+}
+
+#footbox>#leftfoot {
+    width: 354px;
+    height: 190px;
+    float: left;
+}
+
+#footbox>#leftfoot>#footlogo {
+    width: 100px;
+    height: 14.271px;
+    margin: 0 0 21px 0px;
+}
+
+#footbox>#leftfoot>#footlogo>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+#footbox>#leftfoot>a {
+    width: 353px;
+    height: 15px;
+    font-size: 13px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: #979797;
+    line-height: 15px;
+    display: block;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#leftfoot>a:hover {
+    color: #555555;
+}
+
+#footbox>#leftfoot>#address {
+    width: 354px;
+    height: 54px;
+    margin: 41.7px 0 4.3px 0px;
+    font-size: 12px;
+    color: #767676;
+    line-height: 18px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#leftfoot>p {
+    font-size: 11px;
+    color: #b7b7b7;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#rightfoot {
+    width: 300px;
+    height: 171px;
+    float: right;
+    margin-top: 32px;
+}
+
+#footbox>#rightfoot>#contactbox {
+    width: 300px;
+    height: 72px;
+    font-size: 12px;
+    color: #767676;
+    line-height: 18px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#rightfoot>#contactbox>#email {
+    width: 170px;
+    height: 36px;
+    float: left;
+}
+
+#footbox>#rightfoot>#contactbox>#email>strong {
+    display: block;
+}
+
+#footbox>#rightfoot>#contactbox>#email>a {
+    text-decoration: none;
+    color: #767676;
+}
+
+#footbox>#rightfoot>#contactbox>#chat {
+    width: 120px;
+    height: 72px;
+    float: right;
+}
+
+#footbox>#rightfoot>#contactbox>#chat>strong {
+    line-height: 18px;
+}
+
+#footbox>#rightfoot>strong {
+    margin: 16px 0 37px 0;
+    font-size: 12px;
+    display: block;
+    color: #767676;
+    letter-spacing: -0.5;
+    line-height: 18px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#rightfoot>a {
+    color: #767676;
+    font-size: 10px;
+    display: block;
+    line-height: 18px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#footbox>#rightfoot>a:hover {
+    color: #464646
+}

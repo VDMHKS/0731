@@ -1,0 +1,10 @@
+<svg id="icn_insta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2401" data-name="사각형 2401" width="30" height="30" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_31" data-name="그룹 31" clip-path="url(#clip-path)">
+    <path id="패스_139" data-name="패스 139" d="M19.972,4.5H7.778A3.278,3.278,0,0,0,4.5,7.778v12.2A3.277,3.277,0,0,0,7.778,23.25H19.972a3.277,3.277,0,0,0,3.278-3.276V7.778A3.278,3.278,0,0,0,19.972,4.5m-6.1,13.6A4.227,4.227,0,1,1,18.1,13.875,4.227,4.227,0,0,1,13.875,18.1M19.53,9.271a1.051,1.051,0,1,1,1.051-1.05,1.05,1.05,0,0,1-1.051,1.05" transform="translate(1.125 1.125)" fill="#101820"/>
+  </g>
+</svg>

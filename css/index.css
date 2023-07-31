@@ -1,0 +1,993 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+#slider {
+    width: 100%;
+    height: 693px;
+    background-color: black;
+    margin: 0 0 70px 0px;
+}
+
+#slider>img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 1200px;
+    height: 5270px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0px 0 6px 0px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 440;
+}
+
+#box1 {
+    width: 1200px;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+article {
+    width: 378px;
+    height: 720px;
+}
+
+article>img {
+    width: 100%;
+    height: 250;
+}
+
+article>h5 {
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 440;
+    margin:10px 0 0 0px;
+}
+
+article>p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 2px 0 10px 0px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+.product {
+    width: 380px;
+    height: 94px;
+    border-top: 1px solid #E0E0E0;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.product>.photo {
+    width: 72px;
+    height: 95px;
+    overflow: hidden;
+    float: left;
+}
+
+.product>.photo>a>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.product>.photo>a>img:hover {
+    transform: scale(1.06);
+}
+
+.product>.description {
+    float: left;
+    width: 290px;
+    height: 78px;
+    margin: 10px 0 0 16px;
+}
+
+.product>.description>span {
+    font-size: 13px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+.product>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+.product>.description>#name1>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 17px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+.product>.description>#name2>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 5px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+.product>.description>h7 {
+    font-size: 13px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+.product2 {
+    width: 380px;
+    height: 94px;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.product2>.photo {
+    width: 72px;
+    height: 95px;
+    overflow: hidden;
+    float: left;
+}
+
+.product2>.photo>a>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.product2>.photo>a>img:hover {
+    transform: scale(1.06);
+}
+
+.product2>.description {
+    float: left;
+    width: 290px;
+    height: 78px;
+    margin: 10px 0 0 16px;
+}
+
+.product2>.description>span {
+    font-size: 13px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+.product2>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+.product2>.description>h6>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 17px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+.product2>.description>h7 {
+    font-size: 13px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+.product3 {
+    width: 380px;
+    height: 94px;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+
+#exclu:after {
+    content: "단독";
+    width: 10px;
+    height: 5px;
+    background-color: rgb(198, 216, 206);
+    margin: 0 0 0 10px;
+    color: #272727;
+    padding: 0px 5px;
+    font-size: 9px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+article>.btn {
+    display: block;
+    width: 378px;
+    height: 48px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px 0px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box2 {
+    width: 582px;
+    height: 773px;
+    margin: 100px 0 0 0px;
+    float: left
+}
+
+#box2>#top {
+    width: 582;
+    height: 25px;
+    position: relative;
+    padding: 0 0 10px 0px;
+    border-bottom: 1px solid #666666;
+}
+
+#box2>#top>#view>a>span {
+    font-size: 12px;
+    margin: 0 3px 0 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box2>#top>#view>a {
+    float: right;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#box2>ul>li {
+    padding: 15px 0px;
+    width: 582px;
+    height: 117px;
+    border-bottom: 1px solid #E0E0E0;
+    ;
+}
+
+#box2>ul>li>.photo {
+    width: 89px;
+    height: 117px;
+    overflow: hidden;
+    float: left;
+}
+
+#box2>ul>li>.photo>a>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+#box2>ul>li>.photo>a>img:hover {
+    transform: scale(1.06);
+}
+
+#box2>ul>li>.description {
+    float: left;
+    width: 438px;
+    height: 78px;
+    margin: 20px 0 0 20px;
+}
+
+#box2>ul>li>.description>span {
+    font-size: 13px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box2>ul>li>.description>h6>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 4px 0 17px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+#box2>ul>li>.description>h7 {
+    font-size: 13px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box2>ul>li>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+#box2>ul>li>#rank {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    margin: 0 15px 0 0px;
+}
+
+#box2>ul>li>#rank>p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding: 3px 0 0 0px;
+}
+
+#exclu:after {
+    content: "단독";
+    width: 10px;
+    height: 5px;
+    background-color: rgb(198, 216, 206);
+    margin: 0 0 0 10px;
+    color: #242424;
+    padding: 0px 5px;
+    font-size: 9px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box3 {
+    width: 582px;
+    height: 773px;
+    margin: 100px 0 0 0px;
+    float: right
+}
+
+#box3>#top {
+    width: 582;
+    height: 25px;
+    position: relative;
+    padding: 0 0 10px 0px;
+}
+
+#box3>#top>#view>a>span {
+    font-size: 12px;
+    margin: 0 3px 0 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box3>#top>#view>a {
+    float: right;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#box3>#enterview {
+    width: 100%;
+    height: 365px;
+}
+
+#box3>#enterview>a>img {
+    width: 100%;
+    height: 365px;
+}
+
+#box3>#enterviewb {
+    width: 100%;
+    height: 340px;
+    margin-top: 20px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 15px;
+}
+
+#box3>#enterviewb>ul>li {
+    width: 174px;
+    height: 319px;
+    float: left;
+}
+
+#box3>#enterviewb>ul>li:not(:last-child) {
+    margin-right: 30px;
+}
+
+#box3>#enterviewb>ul>li>.imgbox {
+    width: 100%;
+    height: 243px;
+    overflow: hidden;
+}
+
+#box3>#enterviewb>ul>li>.imgbox>a>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+#box3>#enterviewb>ul>li>.imgbox>a>img:hover {
+    transform: scale(1.06);
+}
+
+#box3>#enterviewb>ul>li>.description {
+    width: 100%;
+    height: 78px;
+    margin: 10px 0 0 0px;
+}
+
+#box3>#enterviewb>ul>li>.description>span {
+    font-size: 13px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box3>#enterviewb>ul>li>.description>h6>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 5px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+#box3>#enterviewb>ul>li>.description>h7 {
+    font-size: 13px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box3>#enterviewb>ul>li>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+#box4 {
+    width: 100%;
+    height: 367px;
+    margin: 100px 0 0 0px;
+    float: right
+}
+
+#box4>#top {
+    width: 582;
+    height: 25px;
+    position: relative;
+    padding: 0 0 10px 0px;
+}
+
+#box4>#top>#view>a>span {
+    font-size: 12px;
+    margin: 0 3px 0 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box4>#top>#view>a {
+    float: right;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#box4>#eventbox {
+    width: 1215px;
+    height: 337px;
+    float: left;
+}
+
+#box4>#eventbox>.seventbox {
+    width: 377px;
+    height: 100%;
+    float: left;
+    border: 1px solid #767676;
+    text-decoration: none;
+}
+
+#box4>#eventbox>.seventbox:hover {
+    opacity: 0.7;
+}
+
+#box4>#eventbox>.seventbox:not(:last-child) {
+    margin: 0 30px 0 0px;
+}
+
+#box4>#eventbox>.seventbox>a>.eventimg {
+    width: 100%;
+    height: 249px;
+}
+
+#box4>#eventbox>.seventbox>a>.eventimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+#box4>#eventbox>.seventbox>a {
+    text-decoration: none;
+    color: #000;
+}
+
+#box4>#eventbox>.seventbox>a>.eventinfo {
+    padding: 13px 15px 16px;
+}
+
+#box4>#eventbox>.seventbox>a>.eventinfo>p>span {
+    display: block;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box4>#eventbox>.seventbox>a>.eventinfo>p {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 20px;
+}
+
+#box5 {
+    width: 100%;
+    height: 504px;
+    margin: 100px 0 0 0px;
+    float: left;
+    display: block;
+}
+
+#box5>#pick {
+    width: 100%;
+    height: 474px;
+}
+
+#box5>#pick>.pickbox {
+    width: 276px;
+    height: 460px;
+    float: left;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}
+
+#box5>#pick>.pickbox:not(:last-child) {
+    margin: 0 32px 0 0px;
+}
+
+#box5>#pick>.pickbox>.imgbox {
+    width: 100%;
+    height: 364px;
+    overflow: hidden;
+}
+
+#box5>#pick>.pickbox>.imgbox>a>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+#box5>#pick>.pickbox>.imgbox>a>img:hover {
+    transform: scale(1.06);
+}
+
+#box5>#pick>.pickbox>.description {
+    width: 100%;
+    height: 78px;
+    margin: 10px 0 0 0px;
+}
+
+#box5>#pick>.pickbox>.description>span {
+    font-size: 14px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box5>#pick>.pickbox>.description>h6>a {
+    font-size: 13.5px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 7px 0 17px 0px;
+    letter-spacing: -0.7px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+#box5>#pick>.pickbox>.description>h7 {
+    font-size: 14px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box5>#pick>.pickbox>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+#box6 {
+    width: 100%;
+    height: 553px;
+    margin: 100px 0 0 0px;
+    float: left;
+    display: block;
+}
+
+#box6>#cut {
+    width: 100%;
+    height: 474px;
+}
+
+#box6>#cut>.cutbox {
+    width: 276px;
+    height: 521px;
+    float: left;
+}
+
+#box6>#cut>.cutbox:not(:last-child) {
+    margin: 0 32px 0 0px;
+}
+
+#box6>#cut>.cutbox>.imgbox {
+    width: 100%;
+    height: 347px;
+}
+
+#box6>#cut>.cutbox>.imgbox>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+#box6>#cut>.cutbox>p {
+    font-size: 11px;
+    text-align: right;
+    color: #767676;
+    margin: 10px 0 8px 0px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box6>#cut>.cutbox>ul>#firin {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 0 10px 0px;
+    position: relative;
+}
+
+#box6>#cut>.cutbox>ul>#sndin {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 0 10px 0px;
+    position: relative;
+}
+
+#box6>#cut>.cutbox>ul>li>.insideimgbox {
+    width: 38px;
+    height: 51px;
+    overflow: hidden;
+}
+
+#box6>#cut>.cutbox>ul>li>.insideimgbox>a>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+#box6>#cut>.cutbox>ul>li>.insideimgbox>a>img:hover {
+    transform: scale(1.06);
+}
+
+#box6>#cut>.cutbox>ul>li>.description {
+    width: 231px;
+    height: 32px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+#box6>#cut>.cutbox>ul>li>.description>h6>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+#box7 {
+    width: 100%;
+    height: 505px;
+    margin: 100px 0 0 0px;
+    float: left;
+    display: block;
+}
+
+#box7>#top {
+    width: 582;
+    height: 25px;
+    position: relative;
+    padding: 0 0 10px 0px;
+}
+
+#box7>#top>#view>a>span {
+    font-size: 12px;
+    margin: 0 3px 0 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box7>#top>#view>a {
+    float: right;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#box7>#ex {
+    width: 100%;
+    height: 474px;
+}
+
+#box7>#ex>.exbox {
+    width: 276px;
+    height: 460px;
+    float: left;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#box7>#ex>.exbox:not(:last-child) {
+    margin: 0 32px 0 0px;
+}
+
+#box7>#ex>.exbox>.imgbox {
+    width: 100%;
+    height: 364px;
+    overflow: hidden;
+}
+
+#box7>#ex>.exbox>.imgbox>a>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+#box7>#ex>.exbox>.imgbox>a>img:hover {
+    transform: scale(1.06);
+}
+
+#box7>#ex>.exbox>.description {
+    width: 100%;
+    height: 78px;
+    margin: 10px 0 0 0px;
+}
+
+#box7>#ex>.exbox>.description>span {
+    font-size: 14px;
+    color: #767676;
+    margin: 10px 0 0 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box7>#ex>.exbox>.description>#name1>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 7px 0 5px 0px;
+    letter-spacing: -0.7px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+#box7>#ex>.exbox>.description>#name2>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 7px 0 17px 0px;
+    letter-spacing: -0.7px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 600;
+}
+
+#box7>#ex>.exbox>.description>h7 {
+    font-size: 14px;
+    color: #767676;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box7>#ex>.exbox>.description>a>#heart {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+
+#exclu:after {
+    content: "단독";
+    width: 10px;
+    height: 5px;
+    background-color: rgb(198, 216, 206);
+    margin: 0 0 0 10px;
+    color: #272727;
+    padding: 0px 5px;
+    font-size: 9px;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box8 {
+    width: 1200px;
+    height: 1120px;
+    margin: 100px 0 0 0px;
+    float: right
+}
+
+#box8>#top {
+    width: 582;
+    height: 25px;
+    position: relative;
+    padding: 0 0 10px 0px;
+}
+
+#box8>#top>#view>a>span {
+    font-size: 12px;
+    margin: 0 3px 0 0px;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box8>#top>#view>a {
+    float: right;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+}
+
+#box8>#lookbox {
+    width: 1215px;
+    height: 1110px;
+    float: left;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#box8>#lookbox>.inlookbox2 {
+    margin: 45px 0 0 0px;
+}
+
+#box8>#lookbox>.inlookbox2:not(:last-child) {
+    margin: 45px 30px 0 0px;
+}
+
+#box8>#lookbox>.inlookbox1 {
+    width: 1194px;
+    height: 550px;
+    float: left;
+    text-decoration: none;
+}
+
+#box8>#lookbox>.inlookbox1>a>.lookimg {
+    width: 100%;
+    height: 446px;
+}
+
+#box8>#lookbox>.inlookbox1>a>.lookimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+#box8>#lookbox>.inlookbox2 {
+    width: 582.062px;
+    height: 465.104px;
+    float: left;
+    text-decoration: none;
+}
+
+#box8>#lookbox>.inlookbox2>a>.lookimg {
+    width: 100%;
+    height: 385px;
+}
+
+#box8>#lookbox>.inlookbox2>a>.lookimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+#box8>#lookbox>.inlookbox1>a {
+    text-decoration: none;
+    color: #000;
+}
+
+#box8>#lookbox>.inlookbox1>a>.lookinfo {
+    padding: 13px 0px 16px;
+}
+
+#box8>#lookbox>.inlookbox1>a>.lookinfo>p>span {
+    display: block;
+    font-size: 13px;
+    color: #767676;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box8>#lookbox>.inlookbox1>a>.lookinfo>p {
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 25px;
+}
+
+#box8>#lookbox>.inlookbox2>a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box8>#lookbox>.inlookbox2>a>.lookinfo {
+    padding: 13px 0px 16px;
+}
+
+#box8>#lookbox>.inlookbox2>a>.lookinfo>p>span {
+    display: block;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    font-family: 'Pretendard',sans-serif;
+}
+
+#box8>#lookbox>.inlookbox2>a>.lookinfo>p {
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Pretendard',sans-serif;
+    line-height: 25px;
+}
