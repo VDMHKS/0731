@@ -22,7 +22,7 @@ section {
 h3 {
     font-size: 20px;
     padding: 0px 0 6px 0px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 440;
 }
 
@@ -47,16 +47,16 @@ article>img {
 
 article>h5 {
     font-size: 20px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 440;
-    margin:10px 0 0 0px;
+    margin: 10px 0 0 0px;
 }
 
 article>p {
     font-size: 15px;
     line-height: 25px;
     margin: 2px 0 10px 0px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .product {
@@ -97,35 +97,28 @@ article>p {
     color: #767676;
     margin: 10px 0 0 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .product>.description>a>#heart {
     width: 24px;
     height: 24px;
+    margin-top: -3px;
     float: right;
 }
 
-.product>.description>#name1>a {
+.product>.description>h6>a {
+    width: 290.016px;
+    height: 32px;
     font-size: 13px;
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 5px 0 17px 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
-}
-
-.product>.description>#name2>a {
-    font-size: 13px;
-    text-decoration: none;
-    color: #000;
-    display: block;
-    padding: 5px 0 5px 0px;
-    letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
-    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .product>.description>h7 {
@@ -133,7 +126,7 @@ article>p {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .product2 {
@@ -175,7 +168,7 @@ article>p {
     color: #767676;
     margin: 10px 0 0 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .product2>.description>a>#heart {
@@ -191,7 +184,7 @@ article>p {
     display: block;
     padding: 5px 0 17px 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
 }
 
@@ -200,7 +193,7 @@ article>p {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .product3 {
@@ -222,7 +215,7 @@ article>p {
     color: #272727;
     padding: 0px 5px;
     font-size: 9px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 article>.btn {
@@ -236,7 +229,7 @@ article>.btn {
     text-align: center;
     line-height: 50px;
     margin: 10px 0px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box2 {
@@ -258,7 +251,7 @@ article>.btn {
     font-size: 12px;
     margin: 0 3px 0 0px;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box2>#top>#view>a {
@@ -274,7 +267,7 @@ article>.btn {
 #box2>ul>li {
     padding: 15px 0px;
     width: 582px;
-    height: 117px;
+    height: 118px;
     border-bottom: 1px solid #E0E0E0;
     ;
 }
@@ -309,7 +302,7 @@ article>.btn {
     color: #767676;
     margin: 10px 0 0 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box2>ul>li>.description>h6>a {
@@ -319,7 +312,7 @@ article>.btn {
     display: block;
     padding: 4px 0 17px 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     line-height: 16px;
     font-weight: 600;
 }
@@ -329,7 +322,7 @@ article>.btn {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box2>ul>li>.description>a>#heart {
@@ -351,6 +344,7 @@ article>.btn {
     text-align: center;
     font-size: 13px;
     padding: 3px 0 0 0px;
+    vertical-align: middle;
 }
 
 #exclu:after {
@@ -362,7 +356,7 @@ article>.btn {
     color: #242424;
     padding: 0px 5px;
     font-size: 9px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box3 {
@@ -383,7 +377,7 @@ article>.btn {
     font-size: 12px;
     margin: 0 3px 0 0px;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box3>#top>#view>a {
@@ -408,10 +402,10 @@ article>.btn {
 
 #box3>#enterviewb {
     width: 100%;
-    height: 340px;
+    height: 318.719px;
     margin-top: 20px;
     border-bottom: 1px solid #E0E0E0;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
 }
 
 #box3>#enterviewb>ul>li {
@@ -421,12 +415,12 @@ article>.btn {
 }
 
 #box3>#enterviewb>ul>li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 29.969px;
 }
 
 #box3>#enterviewb>ul>li>.imgbox {
     width: 100%;
-    height: 243px;
+    height: 229px;
     overflow: hidden;
 }
 
@@ -451,19 +445,23 @@ article>.btn {
     color: #767676;
     margin: 10px 0 0 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box3>#enterviewb>ul>li>.description>h6>a {
+    width: 174.03px;
+    height: 32px;
     font-size: 13px;
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 5px 0 5px 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
     line-height: 16px;
+    padding: 0px 0 7px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #box3>#enterviewb>ul>li>.description>h7 {
@@ -471,13 +469,14 @@ article>.btn {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box3>#enterviewb>ul>li>.description>a>#heart {
     width: 24px;
     height: 24px;
     float: right;
+    margin-top: -5px;
 }
 
 #box4 {
@@ -488,7 +487,7 @@ article>.btn {
 }
 
 #box4>#top {
-    width: 582;
+    width: 100%;
     height: 25px;
     position: relative;
     padding: 0 0 10px 0px;
@@ -498,7 +497,7 @@ article>.btn {
     font-size: 12px;
     margin: 0 3px 0 0px;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box4>#top>#view>a {
@@ -557,14 +556,14 @@ article>.btn {
     font-size: 12px;
     color: #767676;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box4>#eventbox>.seventbox>a>.eventinfo>p {
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     line-height: 20px;
 }
 
@@ -587,6 +586,7 @@ article>.btn {
     float: left;
     border-bottom: 1px solid #E0E0E0;
     border-top: 1px solid #E0E0E0;
+    padding-bottom: 12px;
 }
 
 #box5>#pick>.pickbox:not(:last-child) {
@@ -620,17 +620,19 @@ article>.btn {
     color: #767676;
     margin: 10px 0 0 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box5>#pick>.pickbox>.description>h6>a {
-    font-size: 13.5px;
+    width: 276px;
+    height: 40px;
+    font-size: 14px;
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 7px 0 17px 0px;
-    letter-spacing: -0.7px;
-    font-family: 'Pretendard',sans-serif;
+    padding: 5px 0 0px 0px;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
 }
 
@@ -639,7 +641,7 @@ article>.btn {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box5>#pick>.pickbox>.description>a>#heart {
@@ -686,7 +688,7 @@ article>.btn {
     text-align: right;
     color: #767676;
     margin: 10px 0 8px 0px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box6>#cut>.cutbox>ul>#firin {
@@ -731,7 +733,7 @@ article>.btn {
     color: #000;
     font-size: 11px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
 }
 
@@ -744,7 +746,7 @@ article>.btn {
 }
 
 #box7>#top {
-    width: 582;
+    width: 100%;
     height: 25px;
     position: relative;
     padding: 0 0 10px 0px;
@@ -754,7 +756,7 @@ article>.btn {
     font-size: 12px;
     margin: 0 3px 0 0px;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box7>#top>#view>a {
@@ -777,6 +779,7 @@ article>.btn {
     height: 460px;
     float: left;
     border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 12px;
 }
 
 #box7>#ex>.exbox:not(:last-child) {
@@ -808,31 +811,23 @@ article>.btn {
 #box7>#ex>.exbox>.description>span {
     font-size: 14px;
     color: #767676;
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0px 0px;
     letter-spacing: -0.5px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
-#box7>#ex>.exbox>.description>#name1>a {
+#box7>#ex>.exbox>.description>h6>a {
+    width: 276px;
+    height: 40px;
     font-size: 14px;
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 7px 0 5px 0px;
-    letter-spacing: -0.7px;
-    font-family: 'Pretendard',sans-serif;
+    letter-spacing: -0.5px;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 600;
-}
-
-#box7>#ex>.exbox>.description>#name2>a {
-    font-size: 14px;
-    text-decoration: none;
-    color: #000;
-    display: block;
-    padding: 7px 0 17px 0px;
-    letter-spacing: -0.7px;
-    font-family: 'Pretendard',sans-serif;
-    font-weight: 600;
+    line-height: 20px;
+    padding: 3px 0 7px 0px;
 }
 
 #box7>#ex>.exbox>.description>h7 {
@@ -840,7 +835,7 @@ article>.btn {
     color: #767676;
     letter-spacing: -0.5px;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box7>#ex>.exbox>.description>a>#heart {
@@ -858,7 +853,7 @@ article>.btn {
     color: #272727;
     padding: 0px 5px;
     font-size: 9px;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box8 {
@@ -869,7 +864,7 @@ article>.btn {
 }
 
 #box8>#top {
-    width: 582;
+    width: 100%;
     height: 25px;
     position: relative;
     padding: 0 0 10px 0px;
@@ -879,7 +874,7 @@ article>.btn {
     font-size: 12px;
     margin: 0 3px 0 0px;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box8>#top>#view>a {
@@ -955,21 +950,21 @@ article>.btn {
     font-size: 13px;
     color: #767676;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box8>#lookbox>.inlookbox1>a>.lookinfo>p {
     font-size: 35px;
     font-weight: 700;
     text-decoration: none;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     line-height: 25px;
 }
 
 #box8>#lookbox>.inlookbox2>a {
     text-decoration: none;
     color: #000;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box8>#lookbox>.inlookbox2>a>.lookinfo {
@@ -981,13 +976,13 @@ article>.btn {
     font-size: 12px;
     color: #767676;
     font-weight: 400;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 #box8>#lookbox>.inlookbox2>a>.lookinfo>p {
     font-size: 23px;
     font-weight: 700;
     text-decoration: none;
-    font-family: 'Pretendard',sans-serif;
+    font-family: 'Pretendard', sans-serif;
     line-height: 25px;
 }
