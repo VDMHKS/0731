@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
+
 section {
     width: 1194px;
     height: 5450px;
@@ -53,28 +54,38 @@ section {
     height: 506.828px;
 }
 
-#content>#detail>#imglist>ul>.selectedimg {
+#content>#detail>#imglist>ul>#selectedimg {
     width: 100%;
     height: 97.453px;
     margin: 0px 0px 8px 0px;
 }
 
-#content>#detail>#imglist>ul>.selectedimg>a>img {
+#content>#detail>#imglist>ul>#selectedimg>a>img {
     width: 100%;
     height: 100%;
 }
 
-#content>#detail>#imglist>ul>.listimg {
+#content>#detail>#imglist>ul>#listimg {
     width: 100%;
     height: 73.875px;
     margin: 0px 0px 8px 0px;
 }
 
-#content>#detail>#imglist>ul>.listimg>a>img {
+#content>#detail>#imglist>ul>#listimg>a>img {
     width: 100%;
     height: 100%;
 }
 
+#content>#detail>#imglist>ul>#listimg {
+    width: 100%;
+    height: 73.875px;
+    margin: 0px 0px 8px 0px;
+}
+
+#content>#detail>#imglist>ul>#listimg>a>img {
+    width: 100%;
+    height: 100%;
+}
 #content>#detail>#imgdetail {
     width: 683.812px;
     height: 4521.190px;
@@ -87,23 +98,23 @@ section {
     height: 4521.190px;
 }
 
-#content>#detail>#imgdetail>ul>.selectedimg {
+#content>#detail>#imgdetail>ul>#selectedimg {
     width: 100%;
     height: 902.125px;
 }
 
-#content>#detail>#imgdetail>ul>.selectedimg>a>img {
+#content>#detail>#imgdetail>ul>#selectedimg>a>img {
     width: 100%;
     height: 100%;
 }
 
-#content>#detail>#imgdetail>ul>.listimg {
+#content>#detail>#imgdetail>ul>#listimg {
     width: 100%;
     height: 683.812px;
     margin: 40px 0px 0px 0px;
 }
 
-#content>#detail>#imgdetail>ul>.listimg>a>img {
+#content>#detail>#imgdetail>ul>#listimg>a>img {
     width: 100%;
     height: 100%;
 }
@@ -118,7 +129,7 @@ section {
 #content>#detail>#productinfo>#headarea {
     width: 100%;
     height: 128.391px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 #content>#detail>#productinfo>#headarea>a {

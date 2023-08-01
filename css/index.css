@@ -942,7 +942,7 @@ article>.btn {
 }
 
 #box8>#lookbox>.inlookbox1>a>.lookinfo {
-    padding: 13px 0px 16px;
+    padding: 7px 0px 16px;
 }
 
 #box8>#lookbox>.inlookbox1>a>.lookinfo>p>span {
@@ -951,6 +951,8 @@ article>.btn {
     color: #767676;
     font-weight: 400;
     font-family: 'Pretendard', sans-serif;
+    height: 17px;
+    padding-bottom: 10px;
 }
 
 #box8>#lookbox>.inlookbox1>a>.lookinfo>p {
@@ -958,7 +960,7 @@ article>.btn {
     font-weight: 700;
     text-decoration: none;
     font-family: 'Pretendard', sans-serif;
-    line-height: 25px;
+    line-height: 37px;
 }
 
 #box8>#lookbox>.inlookbox2>a {
