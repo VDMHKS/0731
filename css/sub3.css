@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
-
 section {
     width: 1194px;
     height: 5450px;
@@ -47,6 +46,7 @@ section {
     width: 73.875px;
     height: 931px;
     float: left;
+    
 }
 
 #content>#detail>#imglist>ul {
@@ -453,3 +453,4 @@ section {
     line-height: 20px;
     color: #101820;
 }
+
