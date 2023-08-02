@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2400" data-name="사각형 2400" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_29" data-name="그룹 29" clip-path="url(#clip-path)">
+    <path id="_Color" data-name=" ↳Color" d="M0,0,3.871,3.871,0,7.742Z" transform="translate(15.491 10.065) rotate(90)" fill="#979797"/>
+  </g>
+</svg>
