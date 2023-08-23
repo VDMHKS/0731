@@ -3,7 +3,7 @@
 
 #slider {
     width: 100%;
-    height: 693px;
+    min-height: 693px;
     background-color: black;
     margin: 0 0 70px 0px;
 }
