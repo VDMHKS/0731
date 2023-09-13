@@ -1,0 +1,20 @@
+[{
+	"image" : "img/PC_M%20somerset.jpg",
+	"line1" : "착용자의 삶을 담아내는 일상복",
+	"line2" : "소머셋 신규 입점"
+}, {
+	"image" : "img/85963e4c65eefad7e9a5ed335258f51e.jpg",
+	"brand" : "SOMERSET",
+	"product" : "Light Shirts (Lavender)",
+	"price" : "₩108,000"
+}, {
+	"image" : "img/d7ae9e7abc601d532535450d5a266d31.jpg",
+	"brand" : "SOMERSET",
+	"product" : "Trucker Shirts Jacket (Chambray)",
+	"price" : "₩268,000"
+}, {
+	"image" : "img/b4ee963636cadf3721a6ac93c8479590.jpg",
+	"brand" : "SOMERSET",
+	"product" : "Guggenheim Chino Pants (Beige)",
+	"price" : "₩145,000"
+}]
