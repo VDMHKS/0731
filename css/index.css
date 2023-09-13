@@ -56,10 +56,11 @@
 }
 
 .htitle {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom:10px;
     font-family: 'Pretendard', sans-serif;
     font-weight: 440;
+    display: block;
 }
 
 #box1 {
@@ -241,19 +242,6 @@ article>p {
     padding: 10px 0px;
 }
 
-
-#exclu:after {
-    content: "단독";
-    width: 10px;
-    height: 5px;
-    background-color: rgb(198, 216, 206);
-    margin: 0 0 0 10px;
-    color: #272727;
-    padding: 0px 5px;
-    font-size: 9px;
-    font-family: 'Pretendard', sans-serif;
-}
-
 article>.btn {
     display: block;
     width: 378px;
@@ -385,18 +373,6 @@ article>.btn:hover {
     font-size: 13px;
     padding: 3px 0 0 0px;
     vertical-align: middle;
-}
-
-#exclu:after {
-    content: "단독";
-    width: 10px;
-    height: 5px;
-    background-color: rgb(198, 216, 206);
-    margin: 0 0 0 10px;
-    color: #242424;
-    padding: 0px 5px;
-    font-size: 9px;
-    font-family: 'Pretendard', sans-serif;
 }
 
 #box3 {
@@ -882,18 +858,6 @@ article>.btn:hover {
     width: 24px;
     height: 24px;
     float: right;
-}
-
-#exclu:after {
-    content: "단독";
-    width: 10px;
-    height: 5px;
-    background-color: rgb(198, 216, 206);
-    margin: 0 0 0 10px;
-    color: #272727;
-    padding: 0px 5px;
-    font-size: 9px;
-    font-family: 'Pretendard', sans-serif;
 }
 
 #box8 {
