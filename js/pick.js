@@ -1,6 +1,6 @@
 $(function () {
     $.ajax({
-        url: "../json/pick.json",
+        url: "./json/pick.json",
         dataType: "json",
         success: function (data) {
             if (data.length > 0) {
