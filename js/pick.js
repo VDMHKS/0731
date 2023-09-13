@@ -5,10 +5,10 @@ $(function () {
         success: function (data) {
             if (data.length > 0) {
                 for (var i in data) {
-                    $('.box5 .imgbox').eq(i).find('img').attr('src', data[i].image)
-                    $('.box5 .description').eq(i).prepend('<span>'+data[i].brand+'</span>');
-                    $('.box5 .description').eq(i).append('<h6><a href="sub.html" target="_self">'+data[i].product+'</a></h6>');
-                    $('.box5 .description').eq(i).append('<h7>'+data[i].price+'</h7>');
+                    $('.pickbox .imgbox').eq(i).find('img').attr('src', data[i].image)
+                    $('.pickbox .description').eq(i).prepend('<span>'+data[i].brand+'</span>');
+                    $('.pickbox .description').eq(i).append('<h6><a href="sub.html" target="_self">'+data[i].product+'</a></h6>');
+                    $('.pickbox .description').eq(i).append('<h7>'+data[i].price+'</h7>');
                 }
             }
         }
