@@ -319,7 +319,6 @@ section {
     font-weight: 400;
     line-height: 20px;
     color: #101820;
-    background-color: beige;
 }
 
 #content>#detail>#productinfo>#descript>#textbox::-webkit-scrollbar {
@@ -363,7 +362,7 @@ section {
     margin: 0 18.891px 0px 0px;
 }
 
-#content>#detail>#productinfo>#descript2>ul>li:nth-child(2) {
+#content>#detail>#productinfo>#descript2>ul>li:first-child {
     color: #101820;
     border-bottom: 2px solid #101820;
 }
@@ -382,7 +381,6 @@ section {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
-    background-color: beige;
 }
 
 #content>#detail>#productinfo>#descript2>#sizetable>table>tbody>tr>td {
@@ -437,7 +435,6 @@ section {
     font-weight: 400;
     line-height: 20px;
     color: #101820;
-    background-color: beige;
 }
 
 #content>#detail>#productinfo>#supply {
