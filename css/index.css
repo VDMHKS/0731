@@ -98,6 +98,7 @@
 article {
     width: 378px;
     height: 720px;
+    border-top: 1px solid #E0E0E0;
 }
 
 article>img {
@@ -122,7 +123,7 @@ article>p {
 .product {
     width: 380px;
     height: 94px;
-    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
     margin: 0 auto;
     padding: 10px 0px;
 }
@@ -189,78 +190,10 @@ article>p {
     font-family: 'Pretendard', sans-serif;
 }
 
-.product2 {
-    width: 380px;
-    height: 94px;
-    border-top: 1px solid #E0E0E0;
-    border-bottom: 1px solid #E0E0E0;
-    margin: 0 auto;
-    padding: 10px 0px;
-}
-
-.product2>.photo {
-    width: 72px;
-    height: 95px;
-    overflow: hidden;
-    float: left;
-}
-
-.product2>.photo>a>img {
-    float: left;
-    width: 100%;
-    height: 100%;
-    transition: 0.6s;
-}
-
-.product2>.photo>a>img:hover {
-    transform: scale(1.06);
-}
-
-.product2>.description {
-    float: left;
-    width: 290px;
-    height: 78px;
-    margin: 10px 0 0 16px;
-}
-
-.product2>.description>span {
-    font-size: 13px;
-    color: #767676;
-    margin: 10px 0 0 0px;
-    letter-spacing: -0.5px;
-    font-family: 'Pretendard', sans-serif;
-}
-
-.product2>.description>a>#heart {
-    width: 24px;
-    height: 24px;
-    float: right;
-}
-
-.product2>.description>h6>a {
-    font-size: 13px;
-    text-decoration: none;
-    color: #000;
-    display: block;
-    padding: 5px 0 17px 0px;
-    letter-spacing: -0.5px;
-    font-family: 'Pretendard', sans-serif;
-    font-weight: 600;
-}
-
-.product2>.description>h7 {
-    font-size: 13px;
-    color: #767676;
-    letter-spacing: -0.5px;
-    font-weight: 400;
-    font-family: 'Pretendard', sans-serif;
-}
 
 .product3 {
     width: 380px;
     height: 94px;
-    border-top: 1px solid #E0E0E0;
-    border-bottom: 1px solid #E0E0E0;
     margin: 0 auto;
     padding: 10px 0px;
 }
