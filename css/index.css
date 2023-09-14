@@ -98,7 +98,6 @@
 article {
     width: 378px;
     height: 720px;
-    border-top: 1px solid #E0E0E0;
 }
 
 article>img {
@@ -118,6 +117,10 @@ article>p {
     line-height: 25px;
     margin: 2px 0 10px 0px;
     font-family: 'Pretendard', sans-serif;
+}
+
+.product:first-child {
+    border-top: 1px solid #E0E0E0;
 }
 
 .product {
