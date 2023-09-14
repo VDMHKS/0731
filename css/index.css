@@ -524,7 +524,7 @@ article>.btn:hover {
     padding: 13px 15px 16px;
 }
 
-#box4>#eventbox>.seventbox>a>.eventinfo>p>span {
+#box4>#eventbox>.seventbox>a>.eventinfo>span {
     display: block;
     font-size: 12px;
     color: #767676;
