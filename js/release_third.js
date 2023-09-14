@@ -1,6 +1,6 @@
 $(function () {
     $.ajax({
-        url: "./json/release_first.json",
+        url: "./json/release_third.json",
         dataType: "json",
         success: function (data) {
             if (data.length > 0) {
