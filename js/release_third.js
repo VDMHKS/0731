@@ -9,11 +9,11 @@ $(function () {
                     $('#box1 #third').eq(i).prepend('<h5>'+data[i].line1+'</h5>');
                     $('#box1 #third').eq(i).prepend('<img src="'+data[i].image+'" alt="photo">');
                 };
-                for (var i=2; i<4; i++) {
-                    $('#box1 #third .product .photo').eq(i).append('<a href="sub.html" target="_self"><img src="'+data[i].image+'" alt="product"></a>');
-                    $('#box1 #third .product .description').eq(i).prepend('<span>'+data[i].brand+'</span>');
-                    $('#box1 #third .product .description').eq(i).append('<h6><a href="sub.html" target="_self">'+data[i].product+'</a></h6>');
-                    $('#box1 #third .product .description').eq(i).append('<h7>'+data[i].price+'</h7>');
+                for (var j=2; j<4; j++) {
+                    $('#box1 #third .product .photo').eq(j).append('<a href="sub.html" target="_self"><img src="'+data[j].image+'" alt="product"></a>');
+                    $('#box1 #third .product .description').eq(j).prepend('<span>'+data[j].brand+'</span>');
+                    $('#box1 #third .product .description').eq(j).append('<h6><a href="sub.html" target="_self">'+data[j].product+'</a></h6>');
+                    $('#box1 #third .product .description').eq(j).append('<h7>'+data[j].price+'</h7>');
                 };
             }
         }
