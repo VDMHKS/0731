@@ -119,14 +119,10 @@ article>p {
     font-family: 'Pretendard', sans-serif;
 }
 
-.product:first-child {
-    border-top: 1px solid #E0E0E0;
-}
-
 .product {
     width: 380px;
     height: 94px;
-    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
     margin: 0 auto;
     padding: 10px 0px;
 }
@@ -193,6 +189,12 @@ article>p {
     font-family: 'Pretendard', sans-serif;
 }
 
+#release_wrap1>.product:last-child {
+    border-bottom: 1px solid #E0E0E0;
+}
+#release_wrap2>.product:last-child {
+    border-bottom: 1px solid #E0E0E0;
+}
 
 .product3 {
     width: 380px;
