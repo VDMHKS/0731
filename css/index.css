@@ -115,14 +115,18 @@ article>h5 {
 article>p {
     font-size: 15px;
     line-height: 25px;
-    margin: 2px 0 10px 0px;
+    margin: 2px 0 0px 0px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #E0E0E0;
     font-family: 'Pretendard', sans-serif;
 }
+
+
 
 .product {
     width: 380px;
     height: 94px;
-    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
     margin: 0 auto;
     padding: 10px 0px;
 }
@@ -189,12 +193,6 @@ article>p {
     font-family: 'Pretendard', sans-serif;
 }
 
-#release_wrap1>.product:last-child {
-    border-bottom: 1px solid #E0E0E0;
-}
-#release_wrap2>.product:last-child {
-    border-bottom: 1px solid #E0E0E0;
-}
 
 .product3 {
     width: 380px;
