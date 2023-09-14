@@ -16,10 +16,10 @@ $(function () {
                     $('#box1 #first .product .description').eq(i).append('<h7>'+data[i].price+'</h7>');
                 };
                 for (var i=4; i<5; i++) {
-                    $('#box1 #first .product2 .photo').eq(k).append('<a href="sub.html" target="_self"><img src="'+data[k].image+'" alt="product"></a>');
-                    $('#box1 #first .product2 .description').eq(k).prepend('<span>'+data[k].brand+'</span>');
-                    $('#box1 #first .product2 .description').eq(k).append('<h6><a href="sub.html" target="_self">'+data[k].product+'</a></h6>');
-                    $('#box1 #first .product2 .description').eq(k).append('<h7>'+data[k].price+'</h7>');
+                    $('#box1 #first .product2 .photo').eq(i).append('<a href="sub.html" target="_self"><img src="'+data[i].image+'" alt="product"></a>');
+                    $('#box1 #first .product2 .description').eq(i).prepend('<span>'+data[i].brand+'</span>');
+                    $('#box1 #first .product2 .description').eq(i).append('<h6><a href="sub.html" target="_self">'+data[i].product+'</a></h6>');
+                    $('#box1 #first .product2 .description').eq(i).append('<h7>'+data[i].price+'</h7>');
                 }
             }
         }
