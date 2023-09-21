@@ -5,7 +5,7 @@ function prev(){
 }
 
 function next(){
-    $('#sliderimg').stop().animate({marginLeft:-1920}, function(){
+    $('#sliderimg').filter(':not(:animated)').stop().animate({marginLeft:-1920}, function(){
         $('#sliderimg li:first').appendTo('#sliderimg');
         $('#sliderimg').css({marginLeft:0})
     });
